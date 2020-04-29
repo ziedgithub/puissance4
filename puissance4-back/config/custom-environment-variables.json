@@ -1,0 +1,12 @@
+{
+  "database" : {
+    "redis" : {
+      "REDIS_URL": "REDIS_URL",
+      "REDIS_PASSWORD": "REDIS_PASSWORD",
+      "REDIS_PORT": "REDIS_PORT"
+    }
+  },
+  "winston": {
+    "enable_console": "WINSTON_CONSOLE"
+  }
+}

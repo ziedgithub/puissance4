@@ -1,0 +1,32 @@
+.gameMatrix {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  background-color: blue;
+}
+
+.gameMatrix:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 3% 2%;
+}
+
+.gamePage {
+  & h1 {
+    text-align: center;
+  }
+  & .turn {
+    text-decoration: underline;
+    color: red;
+    transition: all 0.5s ease;
+  }
+}

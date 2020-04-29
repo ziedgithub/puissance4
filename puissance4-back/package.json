@@ -1,0 +1,42 @@
+{
+  "name": "puissance-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --tls-cipher-list=ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384 main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@types/hapi__joi": "^16.0.12",
+    "@types/ioredis": "^4.14.9",
+    "@types/socket.io": "^2.1.4",
+    "async": "^3.2.0",
+    "body-parser": "1.18.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.22.0",
+    "ioredis": "^4.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "mongoose": "^5.9.9",
+    "socket.io": "^2.3.0",
+    "spdy": "^4.0.2",
+    "swagger-ui-express": "^4.1.4",
+    "sync-request": "^6.1.0",
+    "uuid": "^7.0.3",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/config": "0.0.36",
+    "morgan": "^1.10.0"
+  }
+}
